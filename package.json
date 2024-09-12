@@ -1,0 +1,15 @@
+{
+  "name": "@chapanda/mock-service",
+  "version": "1.0.0",
+  "private": false,
+  "description": "mock service webpack plugin",
+  "main": "index.js",
+  "scripts": {
+    "publish:npm": "pnpm publish --no-git-checks --access public"
+  },
+  "license": "MIT",
+  "author": "baiwusanyu-c",
+  "homepage": "https://github.com/baiwusanyu-c/chapanda-mock-service",
+  "repository": "https://github.com/baiwusanyu-c/chapanda-mock-service",
+  "bugs": "https://github.com/baiwusanyu-c/chapanda-mock-service/issues"
+}
