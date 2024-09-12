@@ -5,6 +5,8 @@
   "description": "mock service webpack plugin",
   "main": "index.js",
   "scripts": {
+    "init": "pnpm i",
+    "release": "bumpp package.json packages/*/package.json  --commit --push --tag",
     "publish:npm": "pnpm publish --no-git-checks --access public"
   },
   "files": [
@@ -16,5 +18,8 @@
   "author": "baiwusanyu-c",
   "homepage": "https://github.com/baiwusanyu-c/chapanda-mock-service",
   "repository": "https://github.com/baiwusanyu-c/chapanda-mock-service",
-  "bugs": "https://github.com/baiwusanyu-c/chapanda-mock-service/issues"
+  "bugs": "https://github.com/baiwusanyu-c/chapanda-mock-service/issues",
+  "devDependencies": {
+    "bumpp": "^9.5.1"
+  }
 }

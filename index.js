@@ -20,7 +20,7 @@ class MockServiceWebpackPlugin {
 
     let child
 
-    child = fork(path.resolve(__dirname, './lib/app.js'), [], {
+    child = fork(path.resolve(__dirname, './src/app.js'), [], {
       encoding: 'utf8',
       execArgv: process.execArgv,
     })
